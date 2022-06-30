@@ -1,2 +1,2 @@
 #!/bin/bash
-$CFILE=0-main.c ;
+$CFILE=0-main.c ; ./0-preprocessor
