@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S pmasm=intel $CFILE
+gcc -S $CFILE=100-main.c
