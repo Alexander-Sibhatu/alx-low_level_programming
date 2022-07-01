@@ -1,6 +1,5 @@
 #include<stdio.h>
 /**
-*
 * main - Entry point
 *
 * Description: 'The program uses puts to display an output'
