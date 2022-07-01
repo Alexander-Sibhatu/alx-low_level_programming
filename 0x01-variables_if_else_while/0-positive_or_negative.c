@@ -2,8 +2,9 @@
 #include<stdio.h>
 #include<time.h>
 /* more headers goes there */
-/* Description: this code identifies the sign of the number*/
+
 /* betty style doc for function main goes there */
+/* Description: This file contains a code that tells the sign of a number*/
 int main(void)
 {
 int n;
