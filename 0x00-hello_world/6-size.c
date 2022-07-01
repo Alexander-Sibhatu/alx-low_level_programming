@@ -1,20 +1,15 @@
 #include<stdio.h>
 /**
-* main - Entry point
+* main - Print sizes of characters
 *
 * Return: Always 0 (Success)
 */
 int main(void)
 {
-	int i;
-	long int l;
-	long long int ll;
-	float d;
-	char c;
-printf("Size of a Char: %zu byte(s)\n", sizeof(c));
-printf("Size of an int: %zu byte(s)\n", sizeof(i));
-printf("Size of a long int: %zu byte(s)\n", sizeof(l));
-printf("Size of a long long int: %zu byte(s)\n", sizeof(ll));
-printf("Size of a float: %zu byte(s)\n", sizeof(d));
+printf("Size of a Char: %zu byte(s)\n", sizeof(char));
+printf("Size of an int: %zu byte(s)\n", sizeof(int));
+printf("Size of a long int: %zu byte(s)\n", sizeof(long int));
+printf("Size of a long long int: %zu byte(s)\n", sizeof(long long int));
+printf("Size of a float: %zu byte(s)\n", sizeof(float));
 return (0);
 }
