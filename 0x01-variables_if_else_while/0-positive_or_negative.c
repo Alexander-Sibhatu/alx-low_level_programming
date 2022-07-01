@@ -2,7 +2,7 @@
 #include<stdio.h>
 #include<time.h>
 /* more headers goes there */
-
+/* Description: this code identifies the sign of the number*/
 /* betty style doc for function main goes there */
 int main(void)
 {
