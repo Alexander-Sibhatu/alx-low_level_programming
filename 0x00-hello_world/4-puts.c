@@ -3,6 +3,8 @@
 *
 * main - Entry point
 *
+* Description: 'The program uses puts to display an output'
+*
 * Return: Always 0 (Success)
 */
 int main(void)
