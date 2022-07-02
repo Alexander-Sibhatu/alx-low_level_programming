@@ -15,8 +15,10 @@ for (ch = 'a'; ch <= 'z'; ch++)
 {
 	if (ch == 'q' || ch == 'e')
 	{
-		printf("");
 	}
+	else
+	{
 	printf("%c", ch);
+	}
 }
 return (0);
