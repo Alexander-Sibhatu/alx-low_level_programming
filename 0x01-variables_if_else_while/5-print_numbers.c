@@ -10,7 +10,8 @@
 
 int main(void)
 {
-int i, j;
+int i;
+int j = 0;
 for (i = 10; i <= j * 10; i++)
 {
 	if (j <= 9)
@@ -18,6 +19,6 @@ for (i = 10; i <= j * 10; i++)
 	printf("%i", i);
 	}
 printf("\n");
-return (0);
 }
+return (0);
 }
