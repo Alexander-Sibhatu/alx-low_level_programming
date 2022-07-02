@@ -8,24 +8,25 @@
  * Description: This code shows the range of the last digit of a number
  *
  * Return: 0 (Success)
- * */
+ */
 int main(void)
 {
 int n;
+int dig = n % 10;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > 5)
 {
-	printf("%d and is greater thatn 5\n", n);
+	printf("Last digit of %d is %d and is greater thatn 5\n", n, dig);
 }
 else if (n == 0)
 {
-	printf("%d and is 0\n", n);
+	printf("Last digit of %d is %d and is 0\n", n, dig);
 }
 else
 {
-	printf("%d and is less than 6 and not 0\n", n);
+	printf("Last digit of %d is %d and is less than 6 and not 0\n", n, dig);
 }
 
 	return (0);
