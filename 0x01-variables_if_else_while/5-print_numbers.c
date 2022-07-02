@@ -20,3 +20,4 @@ for (i = 10; i <= j * 10; i++)
 printf("\n");
 return (0);
 }
+}
