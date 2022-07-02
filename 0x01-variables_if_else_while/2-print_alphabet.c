@@ -13,7 +13,7 @@ int ch;
 for (ch = 'a'; ch <= 'z'; ch++)
 {
 	printf("%c", ch);
-	printf("\n");
 }
+printf("\n");
 return (0);
 }
