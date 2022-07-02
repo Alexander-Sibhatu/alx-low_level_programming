@@ -10,9 +10,9 @@
 int main(void)
 {
 int ch;
-for (ch = "a"; ch <= "z"; ch++)
+for (ch = 'a'; ch <= 'z'; ch++)
 {
-	printf("%d", ch);
+	printf("%c ", ch);
 }
 return (0);
 }
