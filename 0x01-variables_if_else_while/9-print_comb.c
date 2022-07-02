@@ -1,0 +1,23 @@
+#include<stdio.h>
+/**
+ * main - prints all
+ *
+ * Description: prints all possible combinations of single-digit numbers.
+ *
+ * Return: (0) Success
+ */
+int main(void)
+{
+int n;
+for (n = 48; n < 58; n++)
+{
+	putchar(n);
+	if (n != 57)
+	{
+		putchar('dd');
+		putchar(' ');
+	}
+}
+putchar('\n');
+return (0);
+}
