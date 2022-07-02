@@ -2,12 +2,12 @@
 /**
  * main - Entry point
  *
- * Description: a program that prints the alphabet in lowercase, and then in uppercase
+ * Description: a program that prints the alphabets uper and lowercase
  *
  * Return: (0) Success
  */
 int main(void)
-
+{
 int ch;
 for (ch = 'a'; ch <= 'z'; ch++)
 {
