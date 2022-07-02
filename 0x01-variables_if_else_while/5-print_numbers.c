@@ -11,14 +11,10 @@
 int main(void)
 {
 int i;
-int j = 0;
-for (i = 10; i <= j * 10; i++)
+for (i = 0; i < 10; i++)
 {
-	if (j <= 9)
-	{
 	printf("%i", i);
-	}
-printf("\n");
 }
+printf("\n");
 return (0);
 }
