@@ -17,6 +17,6 @@ for (ch = 'A'; ch <= 'Z'; ch++)
 {
 	printf("%c", ch);
 }
-        printf("\n");
+printf("\n");
 return (0);
 }
