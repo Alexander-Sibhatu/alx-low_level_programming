@@ -10,7 +10,7 @@
 int main(void)
 {
 int ch;
-for(ch = 'a'; ch <= 'z'; chr++)
+for (ch = 'a'; ch <= 'z'; chr++)
 {
 	printf("%d", ch)
 	putchar (ch);
