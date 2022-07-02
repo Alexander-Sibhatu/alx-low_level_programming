@@ -11,7 +11,7 @@
 int main(void)
 {
 int i, j;
-for (i = 10; i <= j*10; i++)
+for (i = 10; i <= j * 10; i++)
 {
 	if (j <= 9)
 	{
