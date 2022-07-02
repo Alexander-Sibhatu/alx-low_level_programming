@@ -12,7 +12,7 @@ int main(void)
 int ch;
 for (ch = 'a'; ch <= 'z'; ch++)
 {
-	printf("%d", ch);
+	printf("%d", 'ch');
 }
 return (0);
 }
