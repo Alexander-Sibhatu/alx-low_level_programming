@@ -28,6 +28,7 @@ for (n = 49; n < 58; n++)
 			}
 		}
 	}
+}
 	putchar('\n');
 	return (0);
 }
