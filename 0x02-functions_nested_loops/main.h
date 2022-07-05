@@ -1,7 +1,7 @@
 #ifndef MY_HEADER
 #define MY_HEADER
 /**
-* main - Entry point
+* print_alphabet - Entry point
 *
 * Description: The header main.h
 *
