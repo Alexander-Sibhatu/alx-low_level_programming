@@ -16,6 +16,6 @@ int i;
 		printf("%d", i);
 	}
 	printf("\n");
-	return (0);
+	return (print_alphabet);
 }
 #endif
