@@ -6,7 +6,7 @@
 *
 * Return: 0 (Success)
 */
-int print_alphabet(int)
+int print_alphabet(int i)
 {
 int i;
 	for (i = 'a'; i <= 'z'; i++)
