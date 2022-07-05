@@ -1,3 +1,4 @@
+#include<stdio.h>
 #ifndef MY_HEADER
 #define MY_HEADER
 /**
@@ -7,13 +8,13 @@
 *
 * Return: 0 (Success)
 */
-void print_alphabet(void)
+char  print_alphabet(void)
 {
 	for (int i = 'a'; i <= 'z'; i++)
 	{
-		print("%d", i);
+		printf("%d", i);
 	}
 	printf("\n");
-	return (0);
+	return (char);
 }
 #endif
