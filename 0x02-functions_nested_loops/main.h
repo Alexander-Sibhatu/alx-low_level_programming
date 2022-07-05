@@ -1,5 +1,3 @@
-#ifndef MY_HEADER
-#define MY_HEADER
 #include<stdio.h>
 /**
 * print_alphabet - Entry point
@@ -8,7 +6,7 @@
 *
 * Return: 0 (Success)
 */
-int print_alphabet(void)
+int print_alphabet(int)
 {
 int i;
 	for (i = 'a'; i <= 'z'; i++)
@@ -18,4 +16,4 @@ int i;
 	printf("\n");
 	return (i);
 }
-#endif
+
