@@ -1,4 +1,5 @@
-#ifndef main.h
-#define "main.h";
+#ifndef MY_HEADER
+#define MY_HEADER
 
+printf("_putchar\n");
 #endif
