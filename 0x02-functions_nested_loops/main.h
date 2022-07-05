@@ -1,6 +1,6 @@
-#include<stdio.h>
 #ifndef MY_HEADER
 #define MY_HEADER
+#include<stdio.h>
 /**
 * print_alphabet - Entry point
 *
