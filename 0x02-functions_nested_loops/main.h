@@ -1,1 +1,4 @@
-#include "main.h"
+#ifndef main.h
+#define main.h
+
+#endif
