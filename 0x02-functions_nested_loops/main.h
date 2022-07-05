@@ -8,13 +8,14 @@
 *
 * Return: 0 (Success)
 */
-char  print_alphabet(void)
+void print_alphabet(void)
 {
-	for (int i = 'a'; i <= 'z'; i++)
+int i;
+	for (i = 'a'; i <= 'z'; i++)
 	{
 		printf("%d", i);
 	}
 	printf("\n");
-	return (char);
+	return (0);
 }
 #endif
