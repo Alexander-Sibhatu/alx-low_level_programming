@@ -9,9 +9,6 @@ int _islower(int c)
 {
 	char ch;
 	
-	printf("Enter any character");
-	scanf("%c", &ch);
-
 	if(ch >= 'A' && ch <= 'Z')
 	{
 		return (0);
