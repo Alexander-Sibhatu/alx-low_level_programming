@@ -16,5 +16,5 @@ void print_alphabet(void)
 		printf("%c", i);
 	}
 	printf("\n");
-	return (0);
+	/*return (0);*/
 }
