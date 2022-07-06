@@ -21,6 +21,7 @@ void print_alphabet_x10(void)
 			_putchar(j);
 			j++;
 		}
+		printf("\n");
 		i++;
 	}
 }
