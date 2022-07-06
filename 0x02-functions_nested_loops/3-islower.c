@@ -7,13 +7,13 @@
  */
 int _islower(int c)
 {
-	char ch;
+	char c;
 	
-	if (ch >= 'A' && ch <= 'Z')
+	if (c >= 'A' && c <= 'Z')
 	{
 		return (0);
 	}
-	else if (ch >= 'a' && ch <= 'z')
+	else if (c >= 'a' && c <= 'z')
 	{
 		return (1);
 	}
