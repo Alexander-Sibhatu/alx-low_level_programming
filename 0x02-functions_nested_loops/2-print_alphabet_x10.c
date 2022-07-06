@@ -8,7 +8,7 @@
  *
  * Return: void
  */
-void print_alphabet_x10.c(void)
+void print_alphabet_x10(void)
 {
 	int i = 0;
 
