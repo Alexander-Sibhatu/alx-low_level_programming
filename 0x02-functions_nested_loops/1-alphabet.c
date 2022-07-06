@@ -7,8 +7,13 @@
 *
 * Return: 0 (Success)
 */
-int main(void)
+int print_alphabet(void)
 {
-	print_alphabet();
+	int i;
+	for (i = 'a'; i <= 'z'; i++)
+	{
+		printf("%c", i);d
+	}
+	printf("\n");
 	return (0);
 }
