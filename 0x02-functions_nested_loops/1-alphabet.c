@@ -2,12 +2,13 @@
 #include<stdio.h>
 
 /**
-* main - Entry point
+* print_alphabet - Entry point
 *
 * Description: function that calls main.h and prints the alphabet.
 *
 * Return: 0 (Success)
 */
+
 void print_alphabet(void)
 {
 	int i;
