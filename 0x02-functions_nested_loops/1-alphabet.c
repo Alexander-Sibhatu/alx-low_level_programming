@@ -4,7 +4,7 @@
 /**
 * main - Entry point
 *
-* Description: function that calls main.h and prints the alphabet, in lowercase.
+* Description: function that calls main.h and prints the alphabet.
 *
 * Return: 0 (Success)
 */
