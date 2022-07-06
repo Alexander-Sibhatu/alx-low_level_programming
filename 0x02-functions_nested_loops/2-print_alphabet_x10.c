@@ -16,8 +16,8 @@ void print_alphabet_x10(void)
 	for (i = 0; i < 10; ++i)
 	{
 		for (j = 'a'; j  <= 'z'; ++j)
-		{
-			_printchar(j);
+		{0
+			_putchar(j);
 		}
 		printf("\n");
 	}
