@@ -3,6 +3,8 @@
 /**
  * _islower  - check the code.
  *
+ * parameter c: is used as an argument
+ *
  * Return: Always 0.
  */
 int _islower(int c)
