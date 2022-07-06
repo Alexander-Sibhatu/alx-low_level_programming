@@ -4,7 +4,7 @@
 /**
  * print_alphabet_x10.c - prints the alphabet 10 times.
  *
- * Description: includes the main.h file
+ * print_alphabet_x10: includes the main.h file
  *
  * Return: void
  */
