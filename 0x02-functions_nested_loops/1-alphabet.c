@@ -1,4 +1,5 @@
 #include "main.h"
+#include<stdio.h>
 
 /**
 * main - Entry point
@@ -7,12 +8,12 @@
 *
 * Return: 0 (Success)
 */
-int print_alphabet(void)
+void print_alphabet(void)
 {
 	int i;
 	for (i = 'a'; i <= 'z'; i++)
 	{
-		printf("%c", i);d
+		printf("%c", i);
 	}
 	printf("\n");
 	return (0);
