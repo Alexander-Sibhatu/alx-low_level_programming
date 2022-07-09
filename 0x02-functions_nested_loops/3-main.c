@@ -24,8 +24,3 @@ void test_islower(int n)
  *
  * Return: Always 0.
  */
-int main(void)
-{
-	test_islower('H');
-	return (0);
-}
