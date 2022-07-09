@@ -1,6 +1,3 @@
-#include<stdio.h>
-#include "main.h"
-
 #include "main.h"
 
 /**
@@ -14,7 +11,6 @@ void test_islower(int n)
 
 	r = _islower(n);
 	_putchar(r + '0');
-	_putchar('\n');
 	r = _islower('o');
    	_putchar(r + '0');
        	r = _islower(108);
