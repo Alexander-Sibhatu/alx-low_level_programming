@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * puts2 - prints every other character of a string, starting w-  first character
+ * puts2 - prints every other char of a string, starting w- first character
  *
  * @str: parameter passed
  */
