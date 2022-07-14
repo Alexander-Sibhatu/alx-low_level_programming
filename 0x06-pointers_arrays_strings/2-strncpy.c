@@ -8,22 +8,19 @@
  * Return: the pointer to dest.
  */
 
-char *_strncat(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
-	int size1 = 0, size2 = 0;
 
-	while (*(dest + size1) != '\0')
+	int i;
+
+	for (i = 0; i < n && src[i] != '\0'; i++)
 	{
-		size1++;
+		dest[i] = src[i];
 	}
-
-	while (size2 < n)
+	while (i < n)
 	{
-		*(dest + size1) = *(src + size2);
-		if (*(src + size2) == '\0')
-			break;
-		size1++;
-		size2++;
+		dest[i] = '\0';
+		i++;
 	}
 	return (dest);
 }
