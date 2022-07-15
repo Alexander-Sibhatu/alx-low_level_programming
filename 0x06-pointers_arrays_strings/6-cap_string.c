@@ -4,9 +4,9 @@
  * char *cap_string - capitalizes all words of a string.
  *
  * @s: input string.
- * REturn: the pointer to dest.
+ * Return: the pointer to dest.
  */
-char *cap_string(char *)
+char *cap_string(char *s)
 {
 	int n = 0;
 	int i;
@@ -22,7 +22,7 @@ char *cap_string(char *)
 			if (*(s + n) == cap_words[i])
 			{
 				if ((*(s + (n + 1)) >= 97) && (*(s + (n + 1)) <= 122))
-				       *(s + (n + 1)) = *(s + (n + 1)) - 32;
+					*(s + (n + 1)) = *(s + (n + 1)) - 32;
 				break;
 			}
 		}
