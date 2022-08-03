@@ -2,8 +2,11 @@
 #define FUNCTION_POINTERS_H
 
 /**
+ * print_name - prototype
  * Desc: header file containing prototypes for all functions
- * used in the 0x0E-function_pointers directory
+ *       used in the 0x0E-function_pointers directory.
+ * @name: name to be printed
+ * @f: pointer
  */
 
 #include <stdlib.h>
