@@ -8,7 +8,7 @@
  * Return: 0 - Success.
  */
 
-int sum_them_all(const usigned int n, ...)
+int sum_them_all(const unsigned int n, ...)
 {
 	va_list args;
 	unsigned int i, sum = 0;
