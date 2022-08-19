@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-
+#include "lists.h"
 /**
  * print_list - prints all the elements of a list_t list.
  * @h: singly linked list.
@@ -9,9 +7,9 @@
 
 size_t print_list(const list_t *h)
 {
-	size_t element;
+	size_t elem;
 
-	element = 0;
+	elem = 0;
 	while (h != NULL)
 	{
 		if (h->str == NULL)
@@ -19,7 +17,7 @@ size_t print_list(const list_t *h)
 		else
 			printf("[%d] %s\n", h->len, h->str);
 		h = h->next;
-		element++;
+		elem++;
 	}
-	return (element);
+	return (elem);
 }
